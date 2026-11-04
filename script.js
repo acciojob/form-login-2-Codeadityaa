@@ -5,6 +5,7 @@
 function table(){
 	alert(
 		 "First Name: " + fname.value + " Last Name: " + lname.value + " Phone Number: " + pNum.value + " Email ID: " + mail.value
-	)
+	);
 }
+
 
