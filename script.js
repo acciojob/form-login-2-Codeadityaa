@@ -1,15 +1,10 @@
-function showAlert(event) {
- event.preventDefault();
-
-    const firstName = document.getElementById("fname").value;
-    const lastName = document.getElementById("lname").value;
-    const phone = document.getElementById("phone").value;
-    const email = document.getElementById("email").value;
-
-    alert(
-        "First Name: " + firstName +
-        " Last Name: " + lastName +
-        " Phone Number: " + phone +
-        " Email ID: " + email
-    );
+ let fname =document.getElementBYId("fname");
+ let lname =document.getElementBYId("lname");
+ let pNum =document.getElementBYId("pNum");
+ let mail =document.getElementBYId("mail");
+function table(){
+	alert(
+		 "First Name: " + fname.value + " Last Name: " + lname.value + " Phone Number: " + pNum.value + " Email ID: " + mail.value
+	)
 }
+
